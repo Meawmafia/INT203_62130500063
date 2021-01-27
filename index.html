@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Vue Js - HelloWorld App</title>
+    <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
+    <!-- Using via Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- https://tailwindcss.com/docs/installation -->
+    
+    <!-- Using Tailwind via CDN -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <!-- https://v3.vuejs.org/guide/installation.html#release-notes -->
+    <!-- Vue CDN -->
+    <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+  <title>Basic Vue Js - HelloWorld App</title>
+  <style>
+    .logo {
+        background: url(react.svg) no-repeat top left;
+
+    }
+    .logo2{
+        background-image: url(reactGray.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 100px;
+        background-size: 50% auto;
+        background-color: #2E2E36;
+        
+    }
+</style>
+</head>
+<body>
+    <div id="app">
+      <nav class="bg-gray-800">
+        <div class="relative flex items-center h-16">
+            <a href="" class="ml-20 logo text-gray-800 text-opacity-0">react</a>
+            <a href="" class="text-blue-400"><b>React</b></a>
+            <a href="" class="ml-28 text-white">Docs</a>
+            <a href="" class="ml-10 text-white">Tutorial</a>
+            <a href="" class="ml-10 text-white">Blog</a>
+            <a href="" class="ml-10 text-white">Community</a>
+            <i class="material-icons md-light ml-10">search</i>
+            <input class="bg-gray-800" type="search" placeholder="Search">
+            <a href="" class="ml-5 text-white">v17.0.1</a>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="24" height="24" viewBox="0 0 24 24"
+                class="ml-5">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                    d=" M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z "
+                    class="css-c4d79v"></path>
+            </svg>
+            <a href="" class="text-white">Languages</a>
+            <a href="" class="ml-5 text-white">Github</a>
+            <svg x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="css-19vhmgv">
+                <path fill="gray" d="
+        M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,
+        0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z
+      "></path>
+                <polygon fill="gray" points="
+        45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,
+        14.9 62.8,22.9 71.5,22.9
+        "></polygon>
+            </svg>
+        </div>
+        </div>
+    </nav>
+    <div>
+        <div class="">
+            <div class="logo2 grid justify-items-center py-28">
+            <p class="text-blue-400 font-bold text-6xl">React</p>
+            <p class="text-white pt-5 text-3xl">A JavaScript library for building user interfaces</p>
+            <div class="flex flex-row mt-10">
+                <a href=""
+                    class="bg-blue-500 font-bold text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-blue-600 mt-6">
+                    Get Started
+                </a>
+                <a href="" class="mt-9 ml-3 text-blue-500 text-xl">Take the Tutorial ></a>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="flex flex-row justify-around">
+        <div class="text-left w-96 my-20">
+            <p class="mb-5 text-lg text-gray-400">Declarative</p>
+            <P class="mb-5">React makes it painless to create interactive UIs.
+                Design simple views for each state in your application, and React will
+                efficiently update and render just the right components when your data
+                changes.
+            </P>
+            <p>
+                Declarative views make your code more predictable and easier to debug.
+            </p>
+        </div>
+        <div class="text-left w-96 my-20">
+            <p class="mb-5 text-lg text-gray-400">Component-Based</p>
+            <P class="mb-5">Build encapsulated components that manage their own state, then compose them to make complex
+                UIs.
+            </P>
+            <p>
+                Since component logic is written in JavaScript instead of templates, you can easily pass rich data
+                through your app and keep state out of the DOM.
+            </p>
+        </div>
+        <div class="text-left w-96 my-20">
+            <p class="mb-5 text-lg text-gray-400">Learn Once, Write Anywhere</p>
+            <P class="mb-5">We don’t make assumptions about the rest of your technology stack, so you can develop new
+                features in React without rewriting existing code.
+            </P>
+            <p>
+                React can also render on the server using Node and power mobile apps using <a href=""
+                    class="underline bg-blue-200">React Native.</a>
+            </p>
+        </div>
+
+    </div>
+     
+        </div>
+    </div>
+    
+    
+    
+      <!-- my main.js -->
+      <script src="./main.js">   </script> 
+</body>
+</html>
